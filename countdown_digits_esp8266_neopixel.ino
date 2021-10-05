@@ -1,6 +1,9 @@
 // The Dogg 2021
 // Date countdown timer on 7 segment digit using ESP8266 wifi 
 // The following calculates the remaining days until Nov 27th 2021
+// When remaining count is greater than 20 it changes color to green
+// When remaining count is greater than 10 it changes color to orange
+// When remaining count is less than 10 it changes color to red
 
 #include <Adafruit_NeoPixel.h>
 #include <ESP8266WiFi.h>
